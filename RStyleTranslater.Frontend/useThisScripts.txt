@@ -1,0 +1,7 @@
+npm run build -- собрать проект
+npm run prod -- собрать проект и выложить в WebApp.ConsoleApp 
+webpack -w -- собрать и запустить на сервере
+
+
+copy dist\index.html /Y ..\RStyleTranslater.WebApplication.ConsoleApp
+copy dist\content\app.js /Y ..\RStyleTranslater.WebApplication.ConsoleApp\content
